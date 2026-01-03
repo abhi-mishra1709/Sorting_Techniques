@@ -79,7 +79,7 @@ int main()
     int arr[] = {5, 1, 12, 7, 31, 65, 54, 93};
     int n = 8;
     printarray(arr, n);
-    //Choose Sorting Technique.
+    insertionsort(arr,n);
     printsortedarray(arr, n);
 
     return 0;
